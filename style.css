@@ -34,3 +34,24 @@ a {
     line-height: 30px;
     color: #7D7987
 }
+.imaging {
+    border-radius: 2%;
+    background-color: #94ee45;
+    border: #000002 4px double;
+    transform: scale(1);
+    box-shadow: none;
+    transition: box-shadow 400ms, transform 400ms;
+}
+
+.imaging:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 600ms, transform 600ms;
+}
+.location {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
